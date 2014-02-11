@@ -34,5 +34,8 @@ PRODUCT_PACKAGES += \
 #Init.rc
 PRODUCT_COPY_FILES += device/rpi/raspberrypi/init.rc:root/init.rc
 
+PRODUCT_COPY_FILES += \
+	device/rpi/raspberrypi/vold.fstab:system/etc/vold.fstab
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	hw.nobattery=true
