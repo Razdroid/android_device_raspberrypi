@@ -2,7 +2,6 @@
 PRODUCT_PACKAGES += \
 	libbcm_host \
 	libEGL_$(TARGET_BOARD_PLATFORM) \
-	libGLESv2_$(TARGET_BOARD_PLATFORM) \
 	libOpenVG \
 	libWFC \
 	libvmcs_rpc_client \

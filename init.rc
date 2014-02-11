@@ -127,6 +127,8 @@ on post-fs
 
     # create the lost+found directories, so as to enforce our permissions
     mkdir /cache/lost+found 0770 root root
+    symlink /system/lib/egl/libEGL_rpi.so /system/lib/egl/libGLESv2_rpi.so
+    symlink /system/lib/egl/libEGL_rpi.so /system/lib/egl/libGLES_rpi.so
 
 on post-fs-data
     # We chown/chmod /data again so because mount is run as root + defaults
