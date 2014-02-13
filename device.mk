@@ -39,3 +39,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	hw.nobattery=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	dalvik.vm.heapsize=64m \
+	ro.opengles.version=131072 \
+	debug.sf.hw=1 \
+	debug.fb.rgb565=1
