@@ -32,7 +32,7 @@ USERLAND_INCLUDES := \
         $(VENDOR_PATH)/userland/host_applications/vmcs
 
 LIB_GRALLOC_BRCM_INCLUDE := $(VENDOR_PATH)/libgralloc_brcm
-LIB_GRALLOC_DISPMANX_INCLUDE := $(VENDOR_PATH)/libgralloc_rpi
+LIB_GRALLOC_DISPMANX_INCLUDE := $(VENDOR_PATH)/libgralloc_dispmanx
 GRALLOC_RPI_INCLUDE := $(VENDOR_PATH)/gralloc
 
 #
